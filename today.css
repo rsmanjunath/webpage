@@ -1,0 +1,265 @@
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+   
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	width: 100%
+	width: 90px;
+}
+
+li a:hover {
+     background: red;
+  border: 1px solid red;
+  color: white;
+}
+	
+
+
+
+#banner {
+  background-image: url("download (3).jpg");
+  background-size: cover;
+  background-position: top-center;
+  height: 100px;
+  width: 100%;
+ 
+}
+
+#banner .content h1 {
+  
+  position: relative;
+  top: 0px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#main {
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+}
+
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  border: 1px dotted red;
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+#slide {
+	height: 270px;
+	width: 1350px;	
+}
+#smallbox {
+	width: 300px;
+	height: 200px;
+	background: white;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+
+  text-decoration: none; 
+}
+#thirdbox {
+	width: 300px;
+	height: 200px;
+	background: white;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+}
+#fourthbox {
+	width: 300px;
+	height: 200px;
+	background: white;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  
+}
+#fifthbox {
+	width: 300px;
+	height: 200px;
+	background: white;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+}
+#sixth {
+	width: 1340px;
+	height: 200px;
+	background: white;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+}
+#seventh {
+	width: 300px;
+	height: 200px;
+	background: white;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+}
+#eigth {
+	width: 300px;
+	height: 200px;
+	background: white;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+}
+#ninth {
+	width: 300px;
+	height: 200px;
+	background: white;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+}
+#tenth {
+	width: 300px;
+	height: 200px;
+	background: white;
+  border: 1px solid red;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  
+}
+	
+.second {
+	background-color: #F5B041;
+    width: 250px;
+    border: 25px red;
+    height: 250px;
+    margin: 25px;
+}
+.second:hover {
+	background: white;
+  border: 1px solid red;
+  color: red;
+}
+
+.second a {
+	background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  width: 100%
+  height: 200px;
+  text-decoration: none;
+
+}
+.second a:hover {
+	background: black;
+  border: 1px solid red;
+  color: red;
+}
+section {
+	padding-right: 0px;
+	width: 300px;
+	height: 200px;
+	padding-top: 10px;
+}
+	
+section:hover {
+	background: white;
+  border: 1px solid red;
+  color: red;
+  padding-top: 0px;
+  
+}
+	
+
+
+
+
+
+.byline {
+  border-bottom: 1px solid LightGrey;
+  border-top: 1px solid LightGrey;
+  color: DarkGrey;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: center;
+  text-align: bottom;
+  width: 100%;
+  padding-left: 550px;
+}
+
+.share a {
+  background: 	#0000FF;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
+
+	
+	

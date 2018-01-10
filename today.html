@@ -1,0 +1,95 @@
+<html>
+<head>
+<title> manja </title>
+<link href="C:\Users\Venkat\Desktop\project\today.css" rel="stylesheet">
+</head>
+<body>
+ <div id ="banner">
+  <div class="content">
+  <h1> Online Shopping</h1>
+   <div>
+  </div>
+	
+<ul>
+  <li><a class="Mobiles" href="#">Mobiles</a></li>
+  <li><a href="#Laptops">Laptops</a></li>
+  <li><a href="#contact">Accesories</a></li>
+  <li><a href="#">Bags</a></li>
+  <li><a href="#">Books</a></li>
+  <li><a href="#">Shirts</a></li>
+  <li><a href="#">Musicals</a></li>
+  <li><a href="#">Grocery</a></li>
+  <li><a href="#">Sell</a></li>
+  <li><a href="#">About</a></li>
+</ul>
+
+<body>
+
+
+<div id="slide">
+    <a href="#"> <img class="mySlides" src="1500x300._CB489068348_.jpg"  style="width:100%" "height:100%"></a>
+  <a href="#"> <img class="mySlides" src="1500x300_bank._CB490549582_.jpg" style="width:100%" "height:100%"></a>
+  <a href="#"><img class="mySlides" src="1500x300-honor-band._CB490591003_.jpg" style="width:100%" "height:100%"></a>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000);
+}
+</script>
+<div id="smallbox">
+<a href="#"><img src="subasath_2017-11-15T12-58_6b8972_1320x600_Desktop-BillBoard._UX440_SX440_CB494891587_.jpg" width="100%" height="100%">
+</a>
+</div>
+<div id="thirdbox">
+<a href="#"><img src="sonyxperiaR._UX440_SX440_CB493642329_.jpg" width="100%" height="100%"></a>
+</div>
+
+<div id="fourthbox">
+<a href="#"><img src="XCM_1066650_Manual_1320x600_Banglesbracelets1320X600jpg_GW._UX440_SX440_CB517426927_.jpg" width="100%" height="100%"></a>
+</div>
+
+<div id="fifthbox">
+<a href="#"><img src="1452x1152711.jpg" width="100%" height="100%"></a>
+</div>
+<div id="sixth">
+
+<a href="#"><img src="LP_081015_shopbybrand.jpg" width="100%" height="100%"></a>
+</div>
+<div id="seventh">
+<a href="#"><img src="hp.jpg" width="100%" height="100%"></a>
+</div>
+
+<div id="eigth">
+<a href="#"><img src="intel._V507663345_.jpg" width="100%" height="100%"></a>
+</div>
+
+<div id="ninth">
+<a href="#"><img src="apple.jpg" width="100%" height="100%"></a>
+</div>
+
+<div id="tenth">
+<a href="#"><img src="dell._V279288869_.jpg" width="100%" height="100%"></a>
+</div>
+
+
+
+  <div class="share">
+  <a href="#">FACEBOOK</a>
+  <a href="#">TWITTER</a>
+  <a href="#">INSTAGRAM</a>
+  
+  </div>
+ </body>
+ </html>
